@@ -1,0 +1,26 @@
+.task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-list li i {
+    margin-right: 10px;
+  }
+  
+  .task-list li:hover {
+    background-color: #f4f4f4;
+  }
+.task-list img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}

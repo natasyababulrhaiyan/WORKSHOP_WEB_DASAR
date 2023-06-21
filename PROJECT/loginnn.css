@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500&family=Playfair:wght@300&display=swap');
+
+body {
+    background-color:rgb(241, 150, 181);
+}
+
+.form-container {
+    background:beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px 0px #f553ac;
+    padding: 30px;
+}
+.textjudul {
+    font-family: 'Geologica', sans-serif;
+    text-align: center;
+    color:#f553ac;
+}
+.textform {
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    color:#f553ac;
+}
+.text-hover {
+    text-decoration: none;
+}
+.text-hover:hover {
+    text-decoration: none;
+    color:crimson;
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.input-group-text {
+    border-radius: 10px;
+}
+
+.breadcrumb-item {
+    font-family: 'Geologica', sans-serif;
+}

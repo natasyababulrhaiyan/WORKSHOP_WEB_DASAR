@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500&family=Playfair:wght@300&display=swap');
+
+body, html {
+    font-family: 'Geologica', sans-serif;
+    font-size: 12px;
+    background-color:white;
+    height: 100%;
+    font-weight: 700 ;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    height: 550px;
+    width: 430px;
+    padding: 0 35px;
+    background-color:lightpink;
+    border-radius: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+    border: 2px solid hotpink;
+}
+
+.btn-login {
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700 ;
+    border: 2px solid hotpink;
+}
+
+.link {
+    color:black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.btn-gmail {
+    height: 35px;
+    border: 2px solid hotpink;
+    border-radius: 20px;
+    font-weight: 700 ;
+}
+
+.img-google {
+    height: 20px;
+    width: 20px;
+
+}

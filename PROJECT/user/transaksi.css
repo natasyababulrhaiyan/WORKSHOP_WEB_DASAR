@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500&family=Playfair:wght@300&display=swap');
+
+body {
+    background-color:beige;
+    font-family: 'Geologica', sans-serif;
+    color:rgb(243, 89, 184);
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.form-control {
+    border-radius: 20px;
+}

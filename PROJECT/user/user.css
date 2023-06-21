@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500&family=Playfair:wght@300&display=swap');
+
+body {
+  background-color:white;
+  font-family: 'Geologica', sans-serif;
+  color:rgb(243, 89, 184);
+}
+
+.container-fluid {
+  background-color:white;
+}
+
+.footer {
+  background-color:pink;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.h2 {
+  padding: 2px;
+}
+.img-fluid {
+  border-radius: 5%;
+}
+
+.img-categori {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.img-categori:hover {
+  transform: scale(1.2);
+}
+
+.img-kuliner {
+  width: 70px;
+  border-radius: 100%;
+}
+
+.img-kuliner:hover{
+  transform: scale(1.2);
+} 
+
+.row-container {
+  margin: 0%;
+  border-radius: 5px;
+}
+
+.breadcrumb {
+  font-size: small;
+}
